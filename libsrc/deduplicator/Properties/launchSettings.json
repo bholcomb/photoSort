@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "deduplicator": {
+      "commandName": "Project",
+      "commandLineArgs": "\\\\cortex\\home\\pics\\sorted"
+    }
+  }
+}

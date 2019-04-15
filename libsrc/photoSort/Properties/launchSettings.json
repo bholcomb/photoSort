@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "photoSort": {
+      "commandName": "Project",
+      "commandLineArgs": "\\\\cortex\\home\\pics\\unsorted \\\\cortex\\home\\pics\\sorted",
+      "workingDirectory": "C:\\source\\photoSort"
+    }
+  }
+}
