@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libsrc", "libsrc", "{24A50868-F74C-403E-BCF1-C42BD465CBE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "photoSort", "libsrc\photoSort\photoSort.csproj", "{563BEBD1-EC47-4141-A9EF-A5AF3D921A0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "photoSort", "libsrc\photoSort\photoSort.csproj", "{563BEBD1-EC47-4141-A9EF-A5AF3D921A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deduplicator", "libsrc\deduplicator\deduplicator.csproj", "{9E3B94A2-0E2D-49BB-B105-6DBF2F56F3F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deduplicator", "libsrc\deduplicator\deduplicator.csproj", "{9E3B94A2-0E2D-49BB-B105-6DBF2F56F3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convertify", "libsrc\convertify\convertify.csproj", "{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{563BEBD1-EC47-4141-A9EF-A5AF3D921A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,9 +45,28 @@ Global
 		{9E3B94A2-0E2D-49BB-B105-6DBF2F56F3F4}.Release|x64.Build.0 = Release|Any CPU
 		{9E3B94A2-0E2D-49BB-B105-6DBF2F56F3F4}.Release|x86.ActiveCfg = Release|Any CPU
 		{9E3B94A2-0E2D-49BB-B105-6DBF2F56F3F4}.Release|x86.Build.0 = Release|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Release|x64.Build.0 = Release|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{563BEBD1-EC47-4141-A9EF-A5AF3D921A0B} = {24A50868-F74C-403E-BCF1-C42BD465CBE0}
 		{9E3B94A2-0E2D-49BB-B105-6DBF2F56F3F4} = {24A50868-F74C-403E-BCF1-C42BD465CBE0}
+		{DC9C3B5F-B6E9-4BD9-AB78-8DD20F4FB80D} = {24A50868-F74C-403E-BCF1-C42BD465CBE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DC781F1-7F2E-4261-BFF8-A84ACFB8AA30}
 	EndGlobalSection
 EndGlobal
